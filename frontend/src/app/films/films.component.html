@@ -1,0 +1,10 @@
+<main>
+  <div class="mrs-films mrs-section container">
+      <h2 class="mrs-films-title">Our Films</h2>
+      <div id="mrs-films-list" class="mrs-films">
+        <app-films-item
+          *ngFor="let f of films"
+          [film]="f"></app-films-item>
+      </div>
+  </div>
+</main>
